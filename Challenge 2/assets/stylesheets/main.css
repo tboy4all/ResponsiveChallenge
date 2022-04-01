@@ -1,0 +1,93 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import 'reset.css';
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Custom Styles
+  ========================================
+*/
+
+body {
+  /* font-family: sans-serif 'Courgette', cursive; */
+  font-family: sans-serif;
+  line-height: 1.5;
+  /* margin: 10px; */
+  /* background: #f5f3f5; */
+}
+
+/*
+  ========================================
+  article
+  ========================================
+*/
+
+.product-tittle {
+  background-color: #f7f7f7;
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: 24px;
+}
+
+.shipping {
+  font-size: 24px;
+  font-weight: bold;
+  color: #777;
+  text-transform: uppercase;
+}
+.more-info:link,
+.more-info:visited {
+  color: #000;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+.details-title {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+.details-list {
+  list-style: square;
+}
+.add-cart {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.add-cart:hover {
+  color: #000;
+  background: #fff;
+}
